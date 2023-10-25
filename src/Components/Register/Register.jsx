@@ -136,11 +136,11 @@ function Register({ state, acc }) {
                 class="bg-gray-800 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 style={bgcolor}
               >
-                <option>Select the time in min</option>
-                <option> 1 </option>
-                <option> 2 </option>
-                <option> 5 </option>
+                <option>Select the time in days</option>
                 <option> 10 </option>
+                <option> 20 </option>
+                <option> 50 </option>
+                <option> 100 </option>
               </select>
 
               <div class="p-2 w-full">

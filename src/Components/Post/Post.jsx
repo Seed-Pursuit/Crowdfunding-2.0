@@ -7,7 +7,7 @@ function Post({ setDetails }) {
       title: "Startup Idea 1",
       description:
         "This is the description of the first startup idea. It aims to revolutionize the tech industry.",
-      image: "image_url_1",
+      image: "https://plus.unsplash.com/premium_photo-1670993975922-f1f076f49965?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       targetAmount: 1000, // Target amount in ether
       deadline: new Date().getTime() + 7 * 24 * 60 * 60 * 1000, // One week from now
     },
@@ -16,7 +16,7 @@ function Post({ setDetails }) {
       title: "Startup Idea 2",
       description:
         "Here's the description of the second startup idea. Join us in making this idea a reality.",
-      image: "image_url_2",
+      image: "https://images.unsplash.com/photo-1533319417894-6fbb331e5513?auto=format&fit=crop&q=80&w=1935&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       targetAmount: 500, // Target amount in ether
       deadline: new Date().getTime() + 14 * 24 * 60 * 60 * 1000, // Two weeks from now
     },
